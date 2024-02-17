@@ -1,0 +1,57 @@
+body,
+html {
+  margin: 0;
+}
+
+.gradient-background {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#800eaf),
+    to(#36064a)
+  );
+  background: -o-linear-gradient(left, #800eaf, #36064a);
+  background: linear-gradient(to right, #800eaf, #36064a);
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.card-about {
+  position: absolute;
+  width: 44%;
+}
+
+.card-courses {
+  position: absolute;
+  width: 52%;
+}
+
+.card-soon {
+  position: absolute;
+  width: 36%;
+}
+
+.card-prices {
+  position: absolute;
+  width: 46%;
+}
+
+.card-students {
+  position: absolute;
+  width: 33%;
+}
