@@ -19,6 +19,6 @@ function sendRequest() {
 }
 
 // on page load
-$(document).ready(function () {
+window.onload = function() {
     sendRequest();
-});
+}
